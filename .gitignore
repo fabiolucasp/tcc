@@ -1,0 +1,26 @@
+# Dados pessoais e modelos gerados
+/data/
+/models/
+*.h5
+*.hdf5
+*.keras
+*.pb
+*.tflite
+*.ckpt*
+
+# Credenciais e configuração local
+.env
+.env.*
+!.env.example
+*credentials*.json
+*service-account*.json
+*.pem
+*.key
+
+# Ambiente Python e notebooks
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
